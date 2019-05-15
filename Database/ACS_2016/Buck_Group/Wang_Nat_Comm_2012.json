@@ -1,0 +1,13 @@
+{
+  "uri": "doi:10.1038/ncomms1516",
+  "reference": {
+    "title": "Engineering modular and orthogonal genetic logic gates for robust digital-like synthetic biology",
+    "author": "Wang, Baojun and Kitney, Richard I and Joly, Nicolas and Buck, Martin",
+    "journal": "Nature communications",
+    "volume": "2",
+    "pages": "508",
+    "year": "2011"
+  },
+  "DnaComponent": [],
+  "Experiment": []
+}

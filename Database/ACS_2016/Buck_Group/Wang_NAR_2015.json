@@ -1,0 +1,424 @@
+{
+  "uri": "doi:10.1093/nar/gku1388",
+  "reference": {
+    "title": "Amplification of small molecule-inducible gene expression via tuning of intracellular receptor densities",
+    "author": "Wang, Baojun and Barahona, Mauricio and Buck, Martin",
+    "journal": "Nucleic acids research",
+    "pages": "gku1388",
+    "year": "2015"
+  },
+  "DnaComponent": [
+    {
+      "name": "pBW201J117-GFPmut3b",
+      "type": "plasmid",
+      "annotation": [
+        {"feature": "pSB3K3"},
+        {"feature": "BBa_J23117"},
+        {"feature": "BBa_B0030"},
+        {"feature": "BBa_E0040"},
+        {"feature": "BBa_B0015"}
+      ]
+    },
+    {
+      "name": "pBW201J114-GFPmut3b",
+      "type": "plasmid",
+      "annotation": [
+        {"feature": "pSB3K3"},
+        {"feature": "BBa_J23114"},
+        {"feature": "BBa_B0030"},
+        {"feature": "BBa_E0040"},
+        {"feature": "BBa_B0015"}
+      ]
+    },
+    {
+      "name": "pBW201J115-GFPmut3b",
+      "type": "plasmid",
+      "annotation": [
+        {"feature": "pSB3K3"},
+        {"feature": "BBa_J23115"},
+        {"feature": "BBa_B0030"},
+        {"feature": "BBa_E0040"},
+        {"feature": "BBa_B0015"}
+      ]
+    },
+    {
+      "name": "pBW201J105-GFPmut3b",
+      "type": "plasmid",
+      "annotation": [
+        {"feature": "pSB3K3"},
+        {"feature": "BBa_J23105"},
+        {"feature": "BBa_B0030"},
+        {"feature": "BBa_E0040"},
+        {"feature": "BBa_B0015"}
+      ]
+    },
+    {
+      "name": "pBW201J106-GFPmut3b",
+      "type": "plasmid",
+      "annotation": [
+        {"feature": "pSB3K3"},
+        {"feature": "BBa_J23106"},
+        {"feature": "BBa_B0030"},
+        {"feature": "BBa_E0040"},
+        {"feature": "BBa_B0015"}
+      ]
+    },
+    {
+      "name": "pBW201J101-GFPmut3b",
+      "type": "plasmid",
+      "annotation": [
+        {"feature": "pSB3K3"},
+        {"feature": "BBa_J23101"},
+        {"feature": "BBa_B0030"},
+        {"feature": "BBa_E0040"},
+        {"feature": "BBa_B0015"}
+      ]
+    },
+    {
+      "name": "pBW211J117-tetR",
+      "type": "plasmid",
+      "annotation": [
+        {"feature": "pSB3K3"},
+        {"feature": "BBa_J23117"},
+        {"feature": "BBa_B0030"},
+        {"feature": "tetR"},
+        {"feature": "BBa_B0015"},
+        {"feature": "pTET*"},
+        {"feature": "BBa_B0030"},
+        {"feature": "BBa_E0040"},
+        {"feature": "BBa_B0015"}
+      ]
+    },
+    {
+      "name": "pBW211J114-tetR",
+      "type": "plasmid",
+      "annotation": [
+        {"feature": "pSB3K3"},
+        {"feature": "BBa_J23114"},
+        {"feature": "BBa_B0030"},
+        {"feature": "tetR"},
+        {"feature": "BBa_B0015"},
+        {"feature": "pTET*"},
+        {"feature": "BBa_B0030"},
+        {"feature": "BBa_E0040"},
+        {"feature": "BBa_B0015"}
+      ]
+    },
+    {
+      "name": "pBW211J115-tetR",
+      "type": "plasmid",
+      "annotation": [
+        {"feature": "pSB3K3"},
+        {"feature": "BBa_J23115"},
+        {"feature": "BBa_B0030"},
+        {"feature": "tetR"},
+        {"feature": "BBa_B0015"},
+        {"feature": "pTET*"},
+        {"feature": "BBa_B0030"},
+        {"feature": "BBa_E0040"},
+        {"feature": "BBa_B0015"}
+      ]
+    },	
+    {
+      "name": "pBW211J105-tetR",
+      "type": "plasmid",
+      "annotation": [
+        {"feature": "pSB3K3"},
+        {"feature": "BBa_J23105"},
+        {"feature": "BBa_B0030"},
+        {"feature": "tetR"},
+        {"feature": "BBa_B0015"},
+        {"feature": "pTET*"},
+        {"feature": "BBa_B0030"},
+        {"feature": "BBa_E0040"},
+        {"feature": "BBa_B0015"}
+      ]
+    },
+    {
+      "name": "pBW211J106-tetR",
+      "type": "plasmid",
+      "annotation": [
+        {"feature": "pSB3K3"},
+        {"feature": "BBa_J23106"},
+        {"feature": "BBa_B0030"},
+        {"feature": "tetR"},
+        {"feature": "BBa_B0015"},
+        {"feature": "pTET*"},
+        {"feature": "BBa_B0030"},
+        {"feature": "BBa_E0040"},
+        {"feature": "BBa_B0015"}
+      ]
+    },	
+    {
+      "name": "pBW211J101-tetR",
+      "type": "plasmid",
+      "annotation": [
+        {"feature": "pSB3K3"},
+        {"feature": "BBa_J23101"},
+        {"feature": "BBa_B0030"},
+        {"feature": "tetR"},
+        {"feature": "BBa_B0015"},
+        {"feature": "pTET*"},
+        {"feature": "BBa_B0030"},
+        {"feature": "BBa_E0040"},
+        {"feature": "BBa_B0015"}
+      ]
+    }	
+  ],
+  "Strain":[
+    {
+      "name": "TOP10",
+      "parent": "MC1061",
+      "modification": ["delta lacX74", "delta (ara-leu)7697"]
+    }
+  ],
+  "Experiment": [
+    {
+      "reference": "figure2A-1",
+      "genotype": {
+        "host": "TOP10",
+        "plasmid": ["pBW201J101-GFPmut3b"]  
+      },
+      "environment": {
+        "medium": "LB",
+        "temperature": "37"
+      },
+      "phenotype": {
+        "molecular_species": [["GFPmut3b", "au"]]
+      },
+      "dataset": {
+        "input_output": [[32500]]
+      }
+    },
+    {
+      "reference": "figure2A-2",
+      "genotype": {
+        "host": "TOP10",
+        "plasmid": ["pBW201J106-GFPmut3b"]  
+      },
+      "environment": {
+        "medium": "LB",
+        "temperature": "37"
+      },
+      "phenotype": {
+        "molecular_species": [["GFPmut3b", "au"]]
+      },
+      "dataset": {
+        "input_output": [[7000]]
+      }
+    },
+    {
+      "reference": "figure2A-3",
+      "genotype": {
+        "host": "TOP10",
+        "plasmid": ["pBW201J105-GFPmut3b"]  
+      },
+      "environment": {
+        "medium": "LB",
+        "temperature": "37"
+      },
+      "phenotype": {
+        "molecular_species": [["GFPmut3b", "au"]]
+      },
+      "dataset": {
+        "input_output": [[3100]]
+      }
+    },
+    {
+      "reference": "figure2A-4",
+      "genotype": {
+        "host": "TOP10",
+        "plasmid": ["pBW201J115-GFPmut3b"]  
+      },
+      "environment": {
+        "medium": "LB",
+        "temperature": "37"
+      },
+      "phenotype": {
+        "molecular_species": [["GFPmut3b", "au"]]
+      },
+      "dataset": {
+        "input_output": [[1500]]
+      }
+    },
+    {
+      "reference": "figure2A-5",
+      "genotype": {
+        "host": "TOP10",
+        "plasmid": ["pBW201J114-GFPmut3b"]  
+      },
+      "environment": {
+        "medium": "LB",
+        "temperature": "37"
+      },
+      "phenotype": {
+        "molecular_species": [["GFPmut3b", "au"]]
+      },
+      "dataset": {
+        "input_output": [[600]]
+      }
+    },
+    {
+      "reference": "figure2A-6",
+      "genotype": {
+        "host": "TOP10",
+        "plasmid": ["pBW201J117-GFPmut3b"]  
+      },
+      "environment": {
+        "medium": "LB",
+        "temperature": "37"
+      },
+      "phenotype": {
+        "molecular_species": [["GFPmut3b", "au"]]
+      },
+      "dataset": {
+        "input_output": [[100]]
+      }
+    },
+    {
+      "reference": "figure2B-1",
+      "genotype": {
+        "host": "TOP10",
+        "plasmid": ["pBW211J117-tetR"]  
+      },
+      "environment": {
+        "medium": "LB",
+        "temperature": "37",
+        "supplement": [["aTc","ng/ml"]]
+      },
+      "phenotype": {
+        "molecular_species": [["GFPmut3b", "au"]]
+      },
+      "dataset": {
+        "input_output": [[2,	58],
+          [4,	444],
+          [10,	5440],
+          [25,	21640],
+          [50,	26542],
+          [100,	27338],
+          [200,	27000]
+        ]
+      }
+    },
+    {
+      "reference": "figure2B-2",
+      "genotype": {
+        "host": "TOP10",
+        "plasmid": ["pBW211J114-tetR"]  
+      },
+      "environment": {
+        "medium": "LB",
+        "temperature": "37",
+        "supplement": [["aTc","ng/ml"]]
+      },
+      "phenotype": {
+        "molecular_species": [["GFPmut3b", "au"]]
+      },
+      "dataset": {
+        "input_output": [[10,	26],
+          [25,	699],
+          [50,	5712],
+          [100,	13370],
+          [200,	14973]
+        ]
+      }
+    }
+  ],
+  "comments": [	
+    {
+      "reference": "figure2B-3",
+      "genotype": {
+        "host": "TOP10",
+        "plasmid": ["pBW211J115-tetR"]  
+      },
+      "environment": {
+        "medium": "LB",
+        "temperature": "37",
+        "supplement": [["aTc","ng/ml"]]
+      },
+      "phenotype": {
+        "molecular_species": [["GFPmut3b", "au"]]
+      },
+      "dataset": {
+        "input_output": [[25,	95],
+          [50,	176],
+          [100,	3834],
+          [200,	8998]
+        ]
+      }
+    },
+    {
+      "reference": "figure2B-4",
+      "genotype": {
+        "host": "TOP10",
+        "plasmid": ["pBW211J105-tetR"]  
+      },
+      "environment": {
+        "medium": "LB",
+        "temperature": "37",
+        "supplement": [["aTc","ng/ml"]]
+      },
+      "phenotype": {
+        "molecular_species": [["GFPmut3b", "au"]]
+      },
+      "dataset": {
+        "input_output": [[50,	139],
+          [100,	1275],
+          [200,	4771]
+        ]
+      }
+    },
+    {
+      "reference": "figure2B-5",
+      "genotype": {
+        "host": "TOP10",
+        "plasmid": ["pBW211J106-tetR"]  
+      },
+      "environment": {
+        "medium": "LB",
+        "temperature": "37",
+        "supplement": [["aTc","ng/ml"]]
+      },
+      "phenotype": {
+        "molecular_species": [["GFPmut3b", "au"]]
+      },
+      "dataset": {
+        "input_output": [[0,	102],
+          [2,	102],
+          [4,	102],
+          [10,	102],
+          [25,	102],
+          [50,	102],
+          [100,	116],
+          [200,	1034]
+        ]
+      }
+    },
+    {
+      "reference": "figure2B-6",
+      "genotype": {
+        "host": "TOP10",
+        "plasmid": ["pBW211J101-tetR"]  
+      },
+      "environment": {
+        "medium": "LB",
+        "temperature": "37",
+        "supplement": [["aTc","ng/ml"]]
+      },
+      "phenotype": {
+        "molecular_species": [["GFPmut3b", "au"]]
+      },
+      "dataset": {
+        "input_output": [[0,	201],
+          [2,	201],
+          [4,	201],
+          [10,	201],
+          [25,	202],
+          [50,	210],
+          [100,	279],
+          [200,	696]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "uri": "doi:10.1093/nar/gku593",
+  "reference": {
+    "title": "Engineering modular and tunable genetic amplifiers for scaling transcriptional signals in cascaded gene networks",
+    "author": "Wang, Baojun and Barahona, Mauricio and Buck, Martin",
+    "journal": "Nucleic acids research",
+    "volume": "42",
+    "number": "14",
+    "pages": "9484-9492",
+    "year": "2014"
+  },
+  "DnaComponent": [
+    {
+      "name": "pBW201J109-gfp",
+      "type": "plasmid",
+      "annotation": [
+        {"feature": "pSB3K3"},
+        {"feature": "BBa_J23109"},
+        {"feature": "BBa_B0030"},
+        {"feature": "BBa_E0040"},
+        {"feature": "BBa_B0015"}
+      ]
+    },
+    {
+      "name": "pBW202J114-gfp",
+      "type": "plasmid",
+      "annotation": [
+        {"feature": "pSB3K3"},
+        {"feature": "BBa_J23114"},
+        {"feature": "BBa_B0030"},
+        {"feature": "BBa_E0040"},
+        {"feature": "BBa_B0015"}
+      ]
+    },
+    {
+      "name": "pBW203J116-gfp",
+      "type": "plasmid",
+      "annotation": [
+        {"feature": "pSB3K3"},
+        {"feature": "BBa_J23116"},
+        {"feature": "BBa_B0030"},
+        {"feature": "BBa_E0040"},
+        {"feature": "BBa_B0015"}
+      ]
+    },
+    {
+      "name": "pBW204J115-gfp",
+      "type": "plasmid",
+      "annotation": [
+        {"feature": "pSB3K3"},
+        {"feature": "BBa_J23115"},
+        {"feature": "BBa_B0030"},
+        {"feature": "BBa_E0040"},
+        {"feature": "BBa_B0015"}
+      ]
+    },
+    {
+      "name": "pBW205J105-gfp",
+      "type": "plasmid",
+      "annotation": [
+        {"feature": "pSB3K3"},
+        {"feature": "BBa_J23105"},
+        {"feature": "BBa_B0030"},
+        {"feature": "BBa_E0040"},
+        {"feature": "BBa_B0015"}
+      ]
+    },
+    {
+      "name": "pBW206J106-gfp",
+      "type": "plasmid",
+      "annotation": [
+        {"feature": "pSB3K3"},
+        {"feature": "BBa_J23106"},
+        {"feature": "BBa_B0030"},
+        {"feature": "BBa_E0040"},
+        {"feature": "BBa_B0015"}
+      ]
+    },
+    {
+      "name": "pBW111pBAD-gfp",
+      "type": "plasmid",
+      "annotation": [
+        {"feature": "pSB3K3"},
+        {"feature": "pBAD-cassette"},
+        {"feature": "BBa_B0030"},
+        {"feature": "BBa_E0040"},
+        {"feature": "BBa_B0015"}
+      ]
+    }
+  ],
+  "Experiment": [
+    {
+      "reference": "figure3D-1",
+      "genotype": {
+        "host": "TOP10",
+        "plasmid": ["pBW201J109-gfp"]  
+      },
+      "environment": {
+        "medium": "LB",
+        "temperature": "37"
+      },
+      "phenotype": {
+        "molecular_species": [["GFPmut3b", "au"]]
+      },
+      "dataset": {
+        "input_output": [[50]]
+      }
+    },
+    {
+      "reference": "figure3D-2",
+      "genotype": {
+        "host": "TOP10",
+        "plasmid": ["pBW202J114-gfp"]  
+      },
+      "environment": {
+        "medium": "LB",
+        "temperature": "37"
+      },
+      "phenotype": {
+        "molecular_species": [["GFPmut3b", "au"]]
+      },
+      "dataset": {
+        "input_output": [[500]]
+      }
+    },
+    {
+      "reference": "figure3D-3",
+      "genotype": {
+        "host": "TOP10",
+        "plasmid": ["pBW203J116-gfp"]  
+      },
+      "environment": {
+        "medium": "LB",
+        "temperature": "37"
+      },
+      "phenotype": {
+        "molecular_species": [["GFPmut3b", "au"]]
+      },
+      "dataset": {
+        "input_output": [[1000]]
+      }
+    },
+    {
+      "reference": "figure3D-4",
+      "genotype": {
+        "host": "TOP10",
+        "plasmid": ["pBW204J115-gfp"]  
+      },
+      "environment": {
+        "medium": "LB",
+        "temperature": "37"
+      },
+      "phenotype": {
+        "molecular_species": [["GFPmut3b", "au"]]
+      },
+      "dataset": {
+        "input_output": [[1400]]
+      }
+    },
+    {
+      "reference": "figure3D-5",
+      "genotype": {
+        "host": "TOP10",
+        "plasmid": ["pBW205J105-gfp"]  
+      },
+      "environment": {
+        "medium": "LB",
+        "temperature": "37"
+      },
+      "phenotype": {
+        "molecular_species": [["GFPmut3b", "au"]]
+      },
+      "dataset": {
+        "input_output": [[2400]]
+      }
+    },
+    {
+      "reference": "figure3D-6",
+      "genotype": {
+        "host": "TOP10",
+        "plasmid": ["pBW206J106-gfp"]  
+      },
+      "environment": {
+        "medium": "LB",
+        "temperature": "37"
+      },
+      "phenotype": {
+        "molecular_species": [["GFPmut3b", "au"]]
+      },
+      "dataset": {
+        "input_output": [[6000]]
+      }
+    },
+    {
+      "reference": "figureS6",
+      "genotype": {
+        "host": "TOP10",
+        "plasmid": ["pBW111pBAD-gfp"]  
+      },
+      "environment": {
+        "medium": "LB",
+        "temperature": "37",
+        "supplement": [["arabinose","mM"]]
+      },
+      "phenotype": {
+        "molecular_species": [["GFPmut3b", "au"]]
+      },
+      "dataset": {
+        "input_output": [[0,	0],
+          [1.30E-003,	57],
+          [5.20E-003,	1153],
+          [2.10E-002,	13417],
+          [8.30E-002,	26594],
+          [0.33,	27938],
+          [1.33,	28007],
+          [5.32,	28010],
+          [21.2,	28010]
+        ]
+      }
+    }
+  ]
+}
