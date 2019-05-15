@@ -1,0 +1,31 @@
+{  
+  "uri": "doi:10.1038/274762a0",
+  "reference": {
+    "title": "DNA sequence for a low-level promoter of the lac repressor gene and an 'up' promoter mutation",
+    "author": "Calos, Michele P",
+    "journal": "Nature",
+    "volume": "274",
+    "number": "5673",
+    "pages": "762-765",
+    "year": "1978"
+  },
+  "DnaComponent": [
+    {
+      "name": "placI",
+      "type": "promoter",
+      "sequence": "tggcgcaaaacctttcgcggtatggcatgatagcgcc"
+    },
+    {
+      "name": "placIq",
+      "alias": ["BBa_I14032"],
+      "type": "promoter",
+      "sequence": "tggtgcaaaacctttcgcggtatggcatgatagcgcc"
+    },
+    {
+      "name": "RBS-placI",
+      "type": "RBS",
+      "sequence": "agggtgg"
+    }	
+  ],
+  "Experiment": [ ]
+}
