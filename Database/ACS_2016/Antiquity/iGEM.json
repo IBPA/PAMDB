@@ -1,0 +1,312 @@
+{
+  "uri": "http://parts.igem.org/",
+  "reference": {
+    "title": "Registry of Standard Biological Parts",
+    "author": "iGEM",
+    "year": "2015"
+  }  ,
+  "DnaComponent": [
+    {
+      "name": "pSB3K3",
+      "type": "vector backbone",
+      "annotation": [
+        {"feature": "p15A"},
+        {"feature": "KanR"}
+      ]
+    },
+    {
+      "name": "pSB4C5",
+      "type": "vector backbone",
+      "annotation": [
+        {"feature": "BBa_I50042"},
+        {"feature": "BBa_P1004"}
+      ]
+    },
+    {
+      "name": "p15A",
+      "alias": ["BBa_I50032"], 
+      "type": "origin",
+      "copy number": "10-12",
+      "group": "B", 
+      "sequence": "atggaatagactggatggaggcggataaagttgcaggaccacttctgcgctcggcccttccggctggctggtttattgctgataaatctggagccggtgagcgtgggtctcgcggtatcattgcagcactggggccagatggtaagccctcccgtatcgtagttatctacacgacggggagtcaggcaactatggatgaacgaaatagacagatcgctgagataggtgcctcactgattaagcattggtaactgtcagaccaagtttactcatatatactttagattgatttaaaacttcatttttaatttaaaaggatctaggtgaagatcctttttgataatctcatgaccaaaatcccttaacgtgagttttcgttccactgagcgtcagaccccttaataagatgatcttcttgagatcgttttggtctgcgcgtaatctcttgctctgaaaacgaaaaaaccgccttgcagggcggtttttcgaaggttctctgagctaccaactctttgaaccgaggtaactggcttggaggagcgcagtcaccaaaacttgtcctttcagtttagccttaaccggcgcatgacttcaagactaactcctctaaatcaattaccagtggctgctgccagtggtgcttttgcatgtctttccgggttggactcaagacgatagttaccggataaggcgcagcggtcggactgaacggggggttcgtgcatacagtccagcttggagcgaactgcctacccggaactgagtgtcaggcgtggaatgagacaaacgcggccataacagcggaatgacaccggtaaaccgaaaggcaggaacaggagagcgcacgagggagccgccaggggaaacgcctggtatctttatagtcctgtcgggtttcgccaccactgatttgagcgtcagatttcgtgatgcttgtcaggggggcggagcctatggaaaaacggctttgccgcggccctctcacttccctgttaagtatcttcctggcatcttccaggaaatctccgccccgttcgtaagccatttccgctcgccgcagtcgaacgaccgagcgtagcgagtcagtgagcgaggaagcggaatatatcctgtatcacatattctgctgacgcaccggtgcagccttttttctcctgccacatgaagcacttcactgacaccctcatcagtgccaacatagtaagccagtatacactccgctagcgctgaggtctgcctcgtgaagaaggtgttgctgactcataccaggcctgaatcgccccatcatccagccagaaagtgagggagccacggttgatgagagctttgttgtaggtggaccagttggtgattttgaacttttgctttgccacggaacggtctgcgttgtcgggaagatgcgtgatctgatccttcaactcagcaaaagttcgatttattcaacaaagccacgttgtgtctcaaaatctctgatgttacattgcacaagataaaaatatatcatcatgaacaataaaactgtctgcttacataaacagtaatacaaggggtgtt"
+    },
+    {
+      "name": "ColE1",
+      "type": "origin",
+      "copy number": "15-20",
+      "group": "A", 
+      "sequence": ""
+    },
+    {
+      "name": "pSC101",
+      "alias": ["BBa_I50042"], 
+      "type": "origin",
+      "copy number": "5-5",
+      "group": "B", 
+      "sequence": "ctgtcagaccaagtttacgagctcgcttggactcctgttgatagatccagtaatgacctcagaactccatctggatttgttcagaacgctcggttgccgccgggcgttttttattggtgagaatccaagcactagggacagtaagacgggtaagcctgttgatgataccgctgccttactgggtgcattagccagtctgaatgacctgtcacgggataatccgaagtggtcagactggaaaatcagagggcaggaactgctgaacagcaaaaagtcagatagcaccacatagcagacccgccataaaacgccctgagaagcccgtgacgggcttttcttgtattatgggtagtttccttgcatgaatccataaaaggcgcctgtagtgccatttacccccattcactgccagagccgtgagcgcagcgaactgaatgtcacgaaaaagacagcgactcaggtgcctgatggtcggagacaaaaggaatattcagcgatttgcccgagcttgcgagggtgctacttaagcctttagggttttaaggtctgttttgtagaggagcaaacagcgtttgcgacatccttttgtaatactgcggaactgactaaagtagtgagttatacacagggctgggatctattctttttatctttttttattctttctttattctataaattataaccacttgaatataaacaaaaaaaacacacaaaggtctagcggaatttacagagggtctagcagaatttacaagttttccagcaaaggtctagcagaatttacagatacccacaactcaaaggaaaaggacatgtaattatcattgactagcccatctcaattggtatagtgattaaaatcacctagaccaattgagatgtatgtctgaattagttgttttcaaagcaaatgaactagcgattagtcgctatgacttaacggagcatgaaaccaagctaattttatgctgtgtggcactactcaaccccacgattgaaaaccctacaaggaaagaacggacggtatcgttcacttataaccaatacgctcagatgatgaacatcagtagggaaaatgcttatggtgtattagctaaagcaaccagagagctgatgacgagaactgtggaaatcaggaatcctttggttaaaggctttgagattttccagtggacaaactatgccaagttctcaagcgaaaaattagaattagtttttagtgaagagatattgccttatcttttccagttaaaaaaattcataaaatataatctggaacatgttaagtcttttgaaaacaaatactctatgaggatttatgagtggttattaaaagaactaacacaaaagaaaactcacaaggcaaatatagagattagccttgatgaatttaagttcatgttaatgcttgaaaataactaccatgagtttaaaaggcttaaccaatgggttttgaaaccaataagtaaagatttaaacacttacagcaatatgaaattggtggttgataagcgaggccgcccgactgatacgttgattttccaagttgaactagatagacaaatggatctcgtaaccgaacttgagaacaaccagataaaaatgaatggtgacaaaataccaacaaccattacatcagattcctacctacataacggactaagaaaaacactacacgatgctttaactgcaaaaattcagctcaccagttttgaggcaaaatttttgagtgacatgcaaagtaagtatgatctcaatggttcgttctcatggctcacgcaaaaacaacgaaccacactagagaacatactggctaaatacggaaggatctgaggttcttatggctcttgtatctatcagtgaagcatcaagactaacaaacaaaagtagaacaactgttcaccgttacatatcaaagggaaaactgtccatatgcacagatgaaaacggtgtaaaaaagatagatacatcagagcttttacgagtttttggtgcattcaaagctgttcaccatgaacagatcgacaatgtaac"
+    },
+    {
+      "name": "pBR322",
+      "type": "origin",
+      "copy number": "15-20",
+      "group": "A", 
+      "sequence": ""
+    },
+    {
+      "name": "KanR",
+      "type": "Antibiotic Resistance",
+      "sequence": ""
+    },
+    {
+      "name": "AmpR",
+      "type": "Antibiotic Resistance",
+      "sequence": ""
+    },
+    {
+      "name": "CmR",
+      "alias": ["BBa_P1004"],
+      "type": "Antibiotic Resistance",
+      "sequence": ""
+    },
+    {
+      "name": "SpR",
+      "type": "Antibiotic Resistance",
+      "sequence": ""
+    },
+    {
+      "name": "pC",
+      "type": "promoter"
+    },
+    {
+      "name": "BBa_J23100",
+      "type": "promoter",
+      "sequence": "ttgacggctagctcagtcctaggtacagtgctagc"
+    },
+    {
+      "name": "BBa_J23101",
+      "type": "promoter",
+      "sequence": "tttacagctagctcagtcctaggtattatgctagc"
+    },
+    {
+      "name": "BBa_J23102",
+      "type": "promoter",
+      "sequence": ""
+    },
+    {
+      "name": "BBa_J23105",
+      "type": "promoter",
+      "sequence": ""
+    },
+    {
+      "name": "BBa_J23106",
+      "type": "promoter",
+      "sequence": ""
+    },
+    {
+      "name": "BBa_J23109",
+      "type": "promoter",
+      "sequence": ""
+    },
+    {
+      "name": "BBa_J23114",
+      "type": "promoter",
+      "sequence": ""
+    },
+    {
+      "name": "BBa_J23115",
+      "type": "promoter",
+      "sequence": ""
+    },
+    {
+      "name": "BBa_J23116",
+      "type": "promoter",
+      "sequence": ""
+    },
+    {
+      "name": "BBa_J23117",
+      "type": "promoter",
+      "sequence": "ttgacagctagctcagtcctagggattgtgctagc"
+    },
+    {
+      "name": "BBa_J23150",
+      "type": "promoter",
+      "sequence": ""
+    },
+    {
+      "name": "BBa_J23151",
+      "type": "promoter",
+      "sequence": ""
+    },
+    {
+      "name": "pBAD",
+      "alias": ["BBa_I13453"],
+      "type": "promoter",
+      "sequence": "acattgattatttgcacggcgtcacactttgctatgccatagcatttttatccataagattagcggatcctacctgacgctttttatcgcaactctctactgtttctccataccgtttttttgggctagc"
+    },
+    {
+      "name": "pLAC",
+      "alias": ["BBa_R0010"],
+      "type": "promoter",
+      "sequence": "caatacgcaaaccgcctctccccgcgcgttggccgattcattaatgcagctggcacgacaggtttcccgactggaaagcgggcagtgagcgcaacgcaattaatgtgagttagctcactcattaggcaccccaggctttacactttatgcttccggctcgtatgttgtgtggaattgtgagcggataacaatttcacaca"
+    },
+    {
+      "name": "pLUX",
+      "alias": ["BBa_R0062"],
+      "type": "promoter",
+      "sequence": "acctgtaggatcgtacaggtttacgcaagaaaatggtttgttatagtcgaataaa"
+    },
+    {
+      "name": "pTAC",
+      "family": "pLAC",
+      "sequence": ""
+    },
+    {
+      "name": "pTrc",
+      "family": "pLAC",
+      "sequence": ""
+    },
+    {
+      "name": "BBa_B0030",
+      "type": "RBS",
+      "sequence": ""
+    },
+    {
+      "name": "BBa_B0031",
+      "type": "RBS",
+      "sequence": ""
+    },
+    {
+      "name": "BBa_B0032",
+      "type": "RBS",
+      "sequence": ""
+    },
+    {
+      "name": "BBa_B0033",
+      "type": "RBS",
+      "sequence": ""
+    },
+    {
+      "name": "BBa_B0034",
+      "alias": ["RBS34"],
+      "type": "RBS",
+      "sequence": ""
+    },
+    {
+      "name": "RBS-pC",
+      "type": "RBS",
+      "sequence": ""
+    },
+    {
+      "name": "tetR-LVA",
+      "alias": ["BBa_C0040"],
+      "type": "CDS",
+      "sequence": "atgtccagattagataaaagtaaagtgattaacagcgcattagagctgcttaatgaggtcggaatcgaaggtttaacaacccgtaaactcgcccagaagctaggtgtagagcagcctacattgtattggcatgtaaaaaataagcgggctttgctcgacgccttagccattgagatgttagataggcaccatactcacttttgccctttagaaggggaaagctggcaagattttttacgtaataacgctaaaagttttagatgtgctttactaagtcatcgcgatggagcaaaagtacatttaggtacacggcctacagaaaaacagtatgaaactctcgaaaatcaattagcctttttatgccaacaaggtttttcactagagaatgcattatatgcactcagcgctgtggggcattttactttaggttgcgtattggaagatcaagagcatcaagtcgctaaagaagaaagggaaacacctactactgatagtatgccgccattattacgacaagctatcgaattatttgatcaccaaggtgcagagccagccttcttattcggccttgaattgatcatatgcggattagaaaaacaacttaaatgtgaaagtgggtccgctgcaaacgacgaaaactacgctttagtagcttaataacactgatagtgctagtgtagatcac"
+    },
+    {
+      "name": "lacI",
+      "alias": ["BBa_C0012"],
+      "type": "CDS",
+      "sequence": ""
+    },
+    {
+      "name": "araC",
+      "type": "CDS",
+      "sequence": ""
+    },
+    {
+      "name": "luxR",
+      "type": "CDS",
+      "sequence": ""
+    },
+    {
+      "name": "eYFP",
+      "alias": ["BBa_E0030"],
+      "type": "CDS",
+      "sequence": ""
+    },
+    {
+      "name": "mRFP1",
+      "alias": ["BBa_E1010"],
+      "type": "CDS",
+      "sequence": "atggcttcctccgaagacgttatcaaagagttcatgcgtttcaaagttcgtatggaaggttccgttaacggtcacgagttcgaaatcgaaggtgaaggtgaaggtcgtccgtacgaaggtacccagaccgctaaactgaaagttaccaaaggtggtccgctgccgttcgcttgggacatcctgtccccgcagttccagtacggttccaaagcttacgttaaacacccggctgacatcccggactacctgaaactgtccttcccggaaggtttcaaatgggaacgtgttatgaacttcgaagacggtggtgttgttaccgttacccaggactcctccctgcaagacggtgagttcatctacaaagttaaactgcgtggtaccaacttcccgtccgacggtccggttatgcagaaaaaaaccatgggttgggaagcttccaccgaacgtatgtacccggaagacggtgctctgaaaggtgaaatcaaaatgcgtctgaaactgaaagacggtggtcactacgacgctgaagttaaaaccacctacatggctaaaaaaccggttcagctgccgggtgcttacaaaaccgacatcaaactggacatcacctcccacaacgaagactacaccatcgttgaacagtacgaacgtgctgaaggtcgtcactccaccggtgcttaataacgctgatagtgctagtgtagatcgc"
+    },
+    {
+      "name": "mCherry",
+      "alias": ["BBa_J06504"],
+      "type": "CDS",
+      "sequence": "atggtgagcaagggcgaggaggataacatggccatcatcaaggagttcatgcgcttcaaggtgcacatggagggctccgtgaacggccacgagttcgagatcgagggcgagggcgagggccgcccctacgagggcacccagaccgccaagctgaaggtgaccaagggtggccccctgcccttcgcctgggacatcctgtcccctcagttcatgtacggctccaaggcctacgtgaagcaccccgccgacatccccgactacttgaagctgtccttccccgagggcttcaagtgggagcgcgtgatgaacttcgaggacggcggcgtggtgaccgtgacccaggactcctccttgcaggacggcgagttcatctacaaggtgaagctgcgcggcaccaacttcccctccgacggccccgtaatgcagaagaagaccatgggctgggaggcctcctccgagcggatgtaccccgaggacggcgccctgaagggcgagatcaagcagaggctgaagctgaaggacggcggccactacgacgctgaggtcaagaccacctacaaggccaagaagcccgtgcagctgcccggcgcctacaacgtcaacatcaagttggacatcacctcccacaacgaggactacaccatcgtggaacagtacgaacgcgccgagggccgccactccaccggcggcatggacgagctgtacaagtaataa"
+    },
+    {
+      "name": "BBa_B0015",
+      "type": "terminator",
+      "sequence": ""
+    },
+    {
+      "name": "pBAD-cassette",
+      "alias": "BBa_I0500",
+      "annotation": [
+        {"feature": "araC", "direction": "backward"},
+        {"feature": "RBS-pC"},
+        {"feature": "pC", "direction": "backward"},
+        {"feature": "pBAD"}
+      ],
+      "sequence": "ttatgacaacttgacggctacatcattcactttttcttcacaaccggcacggaactcgctcgggctggccccggtgcattttttaaatacccgcgagaaatagagttgatcgtcaaaaccaacattgcgaccgacggtggcgataggcatccgggtggtgctcaaaagcagcttcgcctggctgatacgttggtcctcgcgccagcttaagacgctaatccctaactgctggcggaaaagatgtgacagacgcgacggcgacaagcaaacatgctgtgcgacgctggcgatatcaaaattgctgtctgccaggtgatcgctgatgtactgacaagcctcgcgtacccgattatccatcggtggatggagcgactcgttaatcgcttccatgcgccgcagtaacaattgctcaagcagatttatcgccagcagctccgaatagcgcccttccccttgcccggcgttaatgatttgcccaaacaggtcgctgaaatgcggctggtgcgcttcatccgggcgaaagaaccccgtattggcaaatattgacggccagttaagccattcatgccagtaggcgcgcggacgaaagtaaacccactggtgataccattcgcgagcctccggatgacgaccgtagtgatgaatctctcctggcgggaacagcaaaatatcacccggtcggcaaacaaattctcgtccctgatttttcaccaccccctgaccgcgaatggtgagattgagaatataacctttcattcccagcggtcggtcgataaaaaaatcgagataaccgttggcctcaatcggcgttaaacccgccaccagatgggcattaaacgagtatcccggcagcaggggatcattttgcgcttcagccatacttttcatactcccgccattcagagaagaaaccaattgtccatattgcatcagacattgccgtcactgcgtcttttactggctcttctcgctaaccaaaccggtaaccccgcttattaaaagcattctgtaacaaagcgggaccaaagccatgacaaaaacgcgtaacaaaagtgtctataatcacggcagaaaagtccacattgattatttgcacggcgtcacactttgctatgccatagcatttttatccataagattagcggatcctacctgacgctttttatcgcaactctctactgtttctccatacccgtttttttgggctagc"
+    }
+  ],
+  "MolecularSpecies": [
+    {
+      "name": "IPTG",
+      "type": "ligand"
+    },
+    {
+      "name": "aTc",
+      "type": "ligand"
+    },
+    {
+      "name": "arabinose",
+      "type": "ligand"
+    }
+  ],
+  "Reaction": [
+    {
+      "reactant": ["IPTG", "lacI"],
+      "mechanism": "ligand-repressor"
+    },
+    {
+      "reactant": ["lacI", "pLAC"],
+      "mechanism": "repressor-promoter"
+    },
+    {
+      "reactant": ["aTc", "tetR"],
+      "mechanism": "ligand-repressor"
+    },
+    {
+      "reactant": ["tetR", "pLtetO-1"],
+      "mechanism": "repressor-promoter"
+    },
+    {
+      "reactant": ["arabinose", "araC"],
+      "mechanism": "ligand-repressor"
+    },
+    {
+      "reactant": ["araC", "pBAD"],
+      "mechanism": "repressor-promoter"
+    },
+    {
+      "reactant": ["AHL", "luxR"],
+      "product": ["AHL-luxR"],
+      "mechanism": "ligand-activator"
+    },
+    {
+      "reactant": ["AHL_luxR", "pLUX"],
+      "mechanism": "activator-promoter"
+    }
+  ],
+  "Strain":[
+    {
+      "name": "MG1655",
+      "parent": "K-12",
+      "modification": ["F-", "lambda-", "ilvG-", "rfb-50", "rph-1"]
+    }    	
+  ]
+}

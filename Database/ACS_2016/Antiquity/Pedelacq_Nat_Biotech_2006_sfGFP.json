@@ -1,0 +1,20 @@
+{
+  "uri": "doi:10.1038/nbt1172",
+  "reference": {
+    "title": "Engineering and characterization of a superfolder green fluorescent protein",
+    "author": "Pedelacq, Jean-Denis and Cabantous, Stephanie and Tran, Timothy and Terwilliger, Thomas C and Waldo, Geoffrey S",
+    "journal": "Nature biotechnology",
+    "volume": "24",
+    "number": "1",
+    "pages": "79-88",
+    "year": "2006"
+  },
+  "DnaComponent": [
+    {
+      "name": "sfGFP",
+      "alias": "BBa_I746916",
+      "type": "CDS",
+      "sequence": "atgcgtaaaggcgaagagctgttcactggtgtcgtccctattctggtggaactggatggtgatgtcaacggtcataagttttccgtgcgtggcgagggtgaaggtgacgcaactaatggtaaactgacgctgaagttcatctgtactactggtaaactgccggtaccttggccgactctggtaacgacgctgacttatggtgttcagtgctttgctcgttatccggaccatatgaagcagcatgacttcttcaagtccgccatgccggaaggctatgtgcaggaacgcacgatttcctttaaggatgacggcacgtacaaaacgcgtgcggaagtgaaatttgaaggcgataccctggtaaaccgcattgagctgaaaggcattgactttaaagaagacggcaatatcctgggccataagctggaatacaattttaacagccacaatgtttacatcaccgccgataaacaaaaaaatggcattaaagcgaattttaaaattcgccacaacgtggaggatggcagcgtgcagctggctgatcactaccagcaaaacactccaatcggtgatggtcctgttctgctgccagacaatcactatctgagcacgcaaagcgttctgtctaaagatccgaacgagaaacgcgatcatatggttctgctggagttcgtaaccgcagcgggcatcacgcatggtatggatgaactgtacaaatgatga"
+    }
+  ]
+}

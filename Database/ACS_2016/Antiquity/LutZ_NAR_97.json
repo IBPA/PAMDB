@@ -1,0 +1,174 @@
+{
+  "uri": "doi: 10.1093/nar/25.6.1203",
+  "reference": {
+    "title": "Independent and tight regulation of transcriptional units in Escherichia coli via the LacR/O, the TetR/O and AraC/I1-I2 regulatory elements",
+    "author": "Lutz, Rolf and Bujard, Hermann",
+    "journal": "Nucleic acids research",
+    "volume": "25",
+    "number": "6",
+    "pages": "1203-1210",
+    "year": "1997"
+  },
+  "DnaComponent": [
+    {
+      "name": "pLtetO-1",
+      "alias": ["BBa_R0040"],
+      "type": "promoter",
+      "sequence": "tccctatcagtgatagagattgacatccctatcagtgatagagatactgagcac"
+    },
+    {
+      "name": "pLlacO-1",
+      "alias": ["BBa_R0011"],
+      "family": "pLAC",
+      "sequence": "aattgtgagcggataacaattgacattgtgagcggataacaagatactgagcaca"
+    },
+    {
+      "name": "pA1lacO-1",
+      "family": "pLAC",
+      "sequence": "AAAGAGTGTTGACTTGTGAGCGGATAACAATGATACTTAGATTCAATTGTGAGCGGATAACAATTTCACACA"
+    },
+    {
+      "name": "plac/ara-1",
+      "type": "promoter",
+      "sequence": "catagcatttttatccataagattagcggatctaacctttacaattgtgagcgctcacaattatgatagattcaattgtgagcggataacaatttcacacaga"
+    },
+    {
+      "name": "pN25",
+      "type": "promoter",
+      "sequence": ""
+    },
+    {
+      "name": "RBS-pN25",
+      "type": "RBS",
+      "sequence": ""
+    },
+    {
+      "name": "tetR",
+      "alias": ["BBa_K1475003"],
+      "type": "CDS",
+      "sequence": "atgtccagattagataaaagtaaagtgattaacagcgcattagagctgcttaatgaggtcggaatcgaaggtttaacaacccgtaaactcgcccagaagctaggtgtagagcagcctacattgtattggcatgtaaaaaataagcgggctttgctcgacgccttagccattgagatgttagataggcaccatactcacttttgccctttagaaggggaaagctggcaagattttttacgtaataacgctaaaagttttagatgtgctttactaagtcatcgcgatggagcaaaagtacatttaggtacacggcctacagaaaaacagtatgaaactctcgaaaatcaattagcctttttatgccaacaaggtttttcactagagaatgcattatatgcactcagcgctgtggggcattttactttaggttgcgtattggaagatcaagagcatcaagtcgctaaagaagaaagggaaacacctactactgatagtatgccgccattattacgacaagctatcgaattatttgatcaccaaggtgcagagccagccttcttattcggccttgaattgatcatatgcggattagaaaaacaacttaaatgtgaaagtgggtcctaa"
+    },
+    {
+      "name": "luc",
+      "type": "CDS",
+      "sequence": ""
+    },
+    {
+      "name": "T1",
+      "type": "terminator",
+      "sequence": ""
+    },
+    {
+      "name": "pZE21-luc",
+      "type": "plasmid",
+      "annotation": [
+        {"feature": "ColE1"},
+        {"feature": "KanR", "direction": "backward"},
+        {"feature": "pLtetO-1"},
+        {"feature": "RBSII"},
+        {"feature": "luc"}
+      ],
+      "sequence": ""
+    },
+    {
+      "name": "pZE22-luc",
+      "type": "plasmid",
+      "annotation": [
+        {"feature": "ColE1"},
+        {"feature": "KanR", "direction": "backward"},
+        {"feature": "pLlacO-1"},
+        {"feature": "RBSII"},
+        {"feature": "luc"}
+      ]
+    },
+    {
+      "name": "pZS4Int1",
+      "type": "plasmid",
+      "annotation": [
+        {"feature": "pSC101"},
+        {"feature": "SpR", "direction": "backward"},
+        {"feature": "placIq"},
+        {"feature": "RBS-placI"},
+        {"feature": "lacI"},
+        {"feature": "pN25"},
+        {"feature": "RBS-pN25"},
+        {"feature": "tetR"},
+        {"feature": "T1"}
+      ]
+    }	
+	
+  ],
+  "Strain": [
+    {
+      "name": "DH5aZ1",
+      "parent": "DH5a",
+      "modification": ["integrate pZS4Int1"]
+    }
+  ],
+  "Experiment": [
+    {
+      "reference": "figure4a",
+      "genotype": {
+        "host": "DH5aZ1",
+        "plasmid": ["pZE21-luc"]  
+      },
+      "environment": {
+        "medium": "LB",
+        "temperature": "37",
+        "supplement": [["aTc","ng/ml"]] 
+      },
+      "phenotype": {
+        "molecular_species": [["luc", "au"]]
+      },
+      "dataset": {
+        "input_output": [[0, 1],
+          [1, 1.5],
+          [2, 2],
+          [3, 3],
+          [4, 6],
+          [5, 10],
+          [6, 20],
+          [7, 30],
+          [8, 40],
+          [9, 90],
+          [10, 100],
+          [12, 150],
+          [13, 250],
+          [17, 1800],
+          [18, 2500],
+          [20, 2800],
+          [25, 2800], 
+          [35, 2800],
+          [60, 2800]
+        ]
+      }
+    }
+  ],
+  "comments": [
+    {
+      "reference": "figure4b",
+      "genotype": {
+        "host": "DH5aZ1",
+        "plasmid": ["pZE22-luc"]  
+      },
+      "environment": {
+        "medium": "LB",
+        "temperature": "37",
+        "supplement": [["IPTG","mM"]] 
+      },
+      "phenotype": {
+        "molecular_species": [["luc", "au"]]
+      },
+      "dataset": {
+        "input_output": [[0, 1],
+          [0.01, 18],
+          [0.03, 100],
+          [0.04, 180],
+          [0.05, 300],
+          [0.1, 450],
+          [1, 620]
+        ]
+      }
+    }
+  ]
+}

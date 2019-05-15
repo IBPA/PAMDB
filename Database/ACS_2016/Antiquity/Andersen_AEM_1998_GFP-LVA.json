@@ -1,0 +1,20 @@
+{
+  "uri": "doi:10.1016/0378-1119(95)00685-0",
+  "reference": {
+    "title": "New unstable variants of green fluorescent protein for studies of transient gene expression in bacteria",
+    "author": "Andersen, Jens Bo and Sternberg, Claus and Poulsen, Lars Kongsbak and Bjoern, Sara Petersen and Givskov, Michael and Molin, Soeren",
+    "journal": "Applied and environmental microbiology",
+    "volume": "64",
+    "number": "6",
+    "pages": "2240-2246",
+    "year": "1998"
+  },
+  "DnaComponent": [
+    {
+      "name": "GFP-LVA",
+      "alias": ["BBa_K145015"],
+      "type": "CDS",
+      "sequence": "atgcgtaaaggagaagaacttttcactggagttgtcccaattcttgttgaattagatggtgatgttaatgggcacaaattttctgtcagtggagagggtgaaggtgatgcaacatacggaaaacttacccttaaatttatttgcactactggaaaactacctgttccatggccaacacttgtcactactttcggttatggtgttcaatgctttgcgagatacccagatcatatgaaacagcatgactttttcaagagtgccatgcccgaaggttatgtacaggaaagaactatatttttcaaagatgacgggaactacaagacacgtgctgaagtcaagtttgaaggtgatacccttgttaatagaatcgagttaaaaggtattgattttaaagaagatggaaacattcttggacacaaattggaatacaactataactcacacaatgtatacatcatggcagacaaacaaaagaatggaatcaaagttaacttcaaaattagacacaacattgaagatggaagcgttcaactagcagaccattatcaacaaaatactccaattggcgatggccctgtccttttaccagacaaccattacctgtccacacaatctgccctttcgaaagatcccaacgaaaagagagaccacatggtccttcttgagtttgtaacagctgctgggattacacatggcatggatgaactatacaaaaggcctgctgcaaacgacgaaaactacgctttagtagcttaataa"
+    }
+  ]
+}
