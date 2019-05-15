@@ -1,7 +1,7 @@
 # PAMDB
 A Parts Database with Consensus Parameter Estimation for Synthetic Circuit Design
 
-### What is DeepPep?
+### What is PAMDB?
 
 DeepPep, is a **protein identification** software which uses deep-convolutional neural network to predict the protein set from a proteomics mixture, given the sequence universe of possible proteins and a target peptide profile.
 
@@ -39,15 +39,14 @@ python run.py data/18Mix
 ```
 ### Support
 
-If you have any questions about DeepPep, please contact Minseung Kim (msgkim@ucdavis.edu) or Ameen Eetemadi (eetemadi@ucdavis.edu).
+If you have any questions about PAMDB, please contact Linh Huynh (huynh@ucdavis.edu) or Ilias Tagkopoulos (itagkopoulos@ucdavis.edu).
 
 ### Citation
- M. Kim, A. Eetemadi, and I. Tagkopoulos, “DeepPep: deep proteome inference from peptide profiling”, PLoS Computational Biology (2017) [\[link\]](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005661)
+ L. Huynh, and I. Tagkopoulos, “A Parts Database with Consensus Parameter Estimation for Synthetic Circuit Design”, ACS Synthetic Biology (2016) [\[link\]](https://pubs.acs.org/doi/abs/10.1021/acssynbio.5b00205)
 
 ### Licence
 See the [LICENSE](./LICENSE) file for license rights and limitations (Apache2.0).
 
 ### Acknowledgement
-This work was supported by a grant from Mars, Inc. and NSF award 1516695.
-
+This work was supported by the NSF CAREER grant #1254205 to IT.
 
