@@ -1,0 +1,436 @@
+{
+  "uri": "doi:10.1186/1754-1611-5-12",
+  "reference": {
+    "title": "BglBrick vectors and datasheets: a synthetic biology platform for gene expression",
+    "author": "Lee, Taek Soon and Krupa, Rachel A and Zhang, Fuzhong and Hajimorad, Meghdad and Holtz, William J and Prasad, Nilu and Lee, Sung Kuk and Keasling, Jay D",
+    "journal": "Journal of biological engineering",
+    "volume": "5",
+    "number": "1",
+    "pages": "1-14",
+    "year": "2011"
+  },
+  "DnaComponent": [
+    {
+      "name": "BBR1",
+      "type": "origin",
+      "sequence": "ctacagccgatagtctggaacagcgcacttacgggttgctgcgcaacccaagtgctaccggcgcggcagcgtgacccgtgtcggcggctccaacggctcgccatcgtccagaaaacacggctcatcgggcatcggcaggcgctgctgcccgcgccgttcccattcctccgtttcggtcaaggctggcaggtctggttccatgcccggaatgccgggctggctgggcggctcctcgccggggccggtcggtagttgctgctcgcccggatacagggtcgggatgcggcgcaggtcgccatgccccaacagcgattcgtcctggtcgtcgtgatcaaccaccacggcggcactgaacaccgacaggcgcaactggtcgcggggctggccccacgccacgcggtcattgaccacgtaggccaacacggtgccggggccgttgagcttcacgacggagatccagcgctcggccaccaagtccttgactgcgtattggaccgtccgcaaagaacgtccgatgagcttggaaagtgtcttctggctgaccaccacggcgttctggtggcccatctgcgccacgaggtgatgcagcagcattgccgccgtgggtttcctcgcaataagcccggcccacgcctcatgcgctttgcgttccgtttgcacccagtgaccgggcttgttcttggcttgaatgccgatttctctggactgcgtggccatgcttatctccatgcggtaggggtgccgcacggttgcggcaccatgcgcaatcagctgcaacttttcggcagcgcgacaacaattatgcgttgcgtaaaagtggcagtcaattacagattttctttaacctacgcaatgagctattgcggggggtgccgcaatgagctgttgcgtaccccccttttttaagttgttgatttttaagtctttcgcatttcgccctatatctagttctttggtgcccaaagaagggcacccctgcggggttcccccacgccttcggcgcggctccccctccggcaaaaagtggcccctccggggcttgttgatcgactgcgcggccttcggccttgcccaaggtggcgctgcccccttggaacccccgcactcgccgccgtgaggctcggggggcaggcgggcgggcttcgcccttcgactgcccccactcgcataggcttgggtcgttccaggcgcgtcaaggccaagccgctgcgcggtcgctgcgcgagccttgacccgccttccacttggtgtccaaccggcaagcgaagcgcgcaggccgcaggccggaggc"
+    },
+    {
+      "name": "placUV5",
+      "family": "pLAC",
+      "sequence": "atcgtttaggcaccccaggctttacactttatgcttccggctcgtataatgtgtggaattgtgagcggataacaatttca"
+    },
+    {
+      "name": "pT7lacO",
+      "family": "pLAC",
+      "sequence": "taatacgactcactataggggaattgtgagcggataacaatttc"
+    },
+    {
+      "name": "pC-tetR",
+      "type": "promoter",
+      "sequence": ""
+    },
+    {
+      "name": "pTET-operon",
+      "type": "promoter",
+      "sequence": ""
+    },
+    {
+      "name": "RBS-pC-tetR",
+      "type": "RBS",
+      "sequence": ""
+    },
+    {
+      "name": "Tet promoter",
+      "sequence": "taattcctaatttttgttgacactctatcgttgatagagttattttaccactccctatcagtgatagagaaaa",
+      "annotation": [
+        {"feature": "RBS-pC-tetR", "direction": "backward"},
+        {"feature": "pC-tetR", "direction": "backward"},
+        {"feature": "pTET-operon"}
+      ]
+    },
+    {
+      "name": "pC-araC",
+      "type": "promoter",
+      "sequence": ""
+    },
+    {
+      "name": "RBS-pC-araC",
+      "type": "RBS",
+      "sequence": ""
+    },
+    {
+      "name": "pBAD operon",
+      "sequence": "",
+      "annotation": [
+        {"feature": "RBS-pC-araC", "direction": "backward"},
+        {"feature": "pC-araC", "direction": "backward"},
+        {"feature": "pBAD"}
+      ]
+    },
+    {
+      "name": "RBS-pET-29b",
+      "type": "RBS",
+      "sequence": "tttaagaaggagatatacat"
+    },
+    {
+      "name": "GFP-uv",
+      "type": "CDS",
+      "sequence": "atgagtaaaggagaagaacttttcactggagttgtcccaattcttgttgaattagatggtgatgttaatgggcacaaattttctgtcagtggagagggtgaaggtgatgcaacatacggaaaacttacccttaaatttatttgcactactggaaaactacctgttccgtggccaacacttgtcactactttctcttatggtgttcaatgcttttcccgttatccggatcacatgaaacggcatgactttttcaagagtgccatgcccgaaggttatgtacaggaacgcactatatctttcaaagatgacgggaactacaagacgcgtgctgaagtcaagtttgaaggtgatacccttgttaatcgtatcgagttaaaaggtattgattttaaagaagatggaaacattctcggacacaaactggagtacaactataactcacacaatgtatacatcacggcagacaaacaaaagaatggaatcaaagctaacttcaaaattcgccacaacattgaagatggctccgttcaactagcagaccattatcaacaaaatactccaattggcgatggccctgtccttttaccagacaaccattacctgtccacacaatctgccctttcgaaagatcccaacgaaaagcgtgaccacatggtccttcttgagtttgtaactgctgctgggattacacatggcatggatgagctctacaaataa"
+    },
+    {
+      "name": "pBbA1a",
+      "type": "plasmid",     
+      "annotation": [
+        {"feature": "p15A", "direction": "backward"},
+        {"feature": "AmpR", "direction": "backward"},
+        {"feature": "placIq"},
+        {"feature": "RBS-placI"},
+        {"feature": "lacI"},
+        {"feature": "pTrc"},
+        {"feature": "RBS-pET-29b"},        
+        {"feature": "mRFP1"},
+        {"feature": "BBa_B0015"}
+      ]
+    },
+    {
+      "name": "pBbB1a",
+      "type": "plasmid",     
+      "annotation": [
+        {"feature": "BBR1", "direction": "backward"},
+        {"feature": "AmpR", "direction": "backward"},
+        {"feature": "placIq"},
+        {"feature": "RBS-placI"},
+        {"feature": "lacI"},
+        {"feature": "pTrc"},
+        {"feature": "RBS-pET-29b"},        
+        {"feature": "GFP-uv"},
+        {"feature": "BBa_B0015"}
+      ]
+    },
+    {
+      "name": "pBbE1a",
+      "type": "plasmid",     
+      "annotation": [
+        {"feature": "ColE1", "direction": "backward"},
+        {"feature": "AmpR", "direction": "backward"},
+        {"feature": "placIq"},
+        {"feature": "RBS-placI"},
+        {"feature": "lacI"},
+        {"feature": "pTrc"},
+        {"feature": "RBS-pET-29b"},        
+        {"feature": "mRFP1"},
+        {"feature": "BBa_B0015"}
+      ]
+    },
+    {
+      "name": "pBbS1a",
+      "type": "plasmid",     
+      "annotation": [
+        {"feature": "pSC101", "direction": "backward"},
+        {"feature": "AmpR", "direction": "backward"},
+        {"feature": "placIq"},
+        {"feature": "RBS-placI"},
+        {"feature": "lacI"},
+        {"feature": "pTrc"},
+        {"feature": "RBS-pET-29b"},        
+        {"feature": "mRFP1"},
+        {"feature": "BBa_B0015"}
+      ]
+    },
+    {
+      "name": "pBbA2a",
+      "type": "plasmid",     
+      "annotation": [
+        {"feature": "p15A", "direction": "backward"},
+        {"feature": "AmpR", "direction": "backward"},
+        {"feature": "tetR", "direction": "backward"},
+        {"feature": "Tet promoter"},
+        {"feature": "RBS-pET-29b"},        
+        {"feature": "mRFP1"},
+        {"feature": "BBa_B0015"}
+      ]
+    },
+    {
+      "name": "pBbB2a",
+      "type": "plasmid",
+      "sequence": "gacgtcttaagacccactttcacatttaagttgtttttctaatccgcatatgatcaattcaaggccgaataagaaggctggctctgcaccttggtgatcaaataattcgatagcttgtcgtaataatggcggcatactatcagtagtaggtgtttccctttcttctttagcgacttgatgctcttgatcttccaatacgcaacctaaagtaaaatgccccacagcgctgagtgcatataatgcattctctagtgaaaaaccttgttggcataaaaaggctaattgattttcgagagtttcatactgtttttctgtaggccgtgtacctaaatgtacttttgctccatcgcgatgacttagtaaagcacatctaaaacttttagcgttattacgtaaaaaatcttgccagctttccccttctaaagggcaaaagtgagtatggtgcctatctaacatctcaatggctaaggcgtcgagcaaagcccgcttattttttacatgccaatacaatgtaggctgctctacacctagcttctgggcgagtttacgggttgttaaaccttcgattccgacctcattaagcagctctaatgcgctgttaatcactttacttttatctaatctagacatcattaattcctaatttttgttgacactctatcgttgatagagttattttaccactccctatcagtgatagagaaaagaattcaaaagatcttttaagaaggagatatacatatgagtaaaggagaagaacttttcactggagttgtcccaattcttgttgaattagatggtgatgttaatgggcacaaattttctgtcagtggagagggtgaaggtgatgcaacatacggaaaacttacccttaaatttatttgcactactggaaaactacctgttccgtggccaacacttgtcactactttctcttatggtgttcaatgcttttcccgttatccggatcacatgaaacggcatgactttttcaagagtgccatgcccgaaggttatgtacaggaacgcactatatctttcaaagatgacgggaactacaagacgcgtgctgaagtcaagtttgaaggtgatacccttgttaatcgtatcgagttaaaaggtattgattttaaagaagatggaaacattctcggacacaaactggagtacaactataactcacacaatgtatacatcacggcagacaaacaaaagaatggaatcaaagctaacttcaaaattcgccacaacattgaagatggctccgttcaactagcagaccattatcaacaaaatactccaattggcgatggccctgtccttttaccagacaaccattacctgtccacacaatctgccctttcgaaagatcccaacgaaaagcgtgaccacatggtccttcttgagtttgtaactgctgctgggattacacatggcatggatgagctctacaaataaggatccaaactcgagtaaggatctccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctactagagtcacactggctcaccttcgggtgggcctttctgcgtttatacctaggctacagccgatagtctggaacagcgcacttacgggttgctgcgcaacccaagtgctaccggcgcggcagcgtgacccgtgtcggcggctccaacggctcgccatcgtccagaaaacacggctcatcgggcatcggcaggcgctgctgcccgcgccgttcccattcctccgtttcggtcaaggctggcaggtctggttccatgcccggaatgccgggctggctgggcggctcctcgccggggccggtcggtagttgctgctcgcccggatacagggtcgggatgcggcgcaggtcgccatgccccaacagcgattcgtcctggtcgtcgtgatcaaccaccacggcggcactgaacaccgacaggcgcaactggtcgcggggctggccccacgccacgcggtcattgaccacgtaggccaacacggtgccggggccgttgagcttcacgacggagatccagcgctcggccaccaagtccttgactgcgtattggaccgtccgcaaagaacgtccgatgagcttggaaagtgtcttctggctgaccaccacggcgttctggtggcccatctgcgccacgaggtgatgcagcagcattgccgccgtgggtttcctcgcaataagcccggcccacgcctcatgcgctttgcgttccgtttgcacccagtgaccgggcttgttcttggcttgaatgccgatttctctggactgcgtggccatgcttatctccatgcggtaggggtgccgcacggttgcggcaccatgcgcaatcagctgcaacttttcggcagcgcgacaacaattatgcgttgcgtaaaagtggcagtcaattacagattttctttaacctacgcaatgagctattgcggggggtgccgcaatgagctgttgcgtaccccccttttttaagttgttgatttttaagtctttcgcatttcgccctatatctagttctttggtgcccaaagaagggcacccctgcggggttcccccacgccttcggcgcggctccccctccggcaaaaagtggcccctccggggcttgttgatcgactgcgcggccttcggccttgcccaaggtggcgctgcccccttggaacccccgcactcgccgccgtgaggctcggggggcaggcgggcgggcttcgcccttcgactgcccccactcgcataggcttgggtcgttccaggcgcgtcaaggccaagccgctgcgcggtcgctgcgcgagccttgacccgccttccacttggtgtccaaccggcaagcgaagcgcgcaggccgcaggccggaggcactagtgcttggattctcaccaataaaaaacgcccggcggcaaccgagcgttctgaacaaatccagatggagttctgaggtcattactggatctatcaacaggagtccaagcgagctcgtaaacttggtctgacagttaccaatgcttaatcagtgaggcacctatctcagcgatctgtctatttcgttcatccatagttgcctgactccccgtcgtgtagataactacgatacgggagggcttaccatctggccccagtgctgcaatgataccgcgagacccacgctcaccggctccagatttatcagcaataaaccagccagccggaagggccgagcgcagaagtggtcctgcaactttatccgcctccatccagtctattaattgttgccgggaagctagagtaagtagttcgccagttaatagtttgcgcaacgttgttgccattgctacaggcatcgtggtgtcacgctcgtcgtttggtatggcttcattcagctccggttcccaacgatcaaggcgagttacatgatcccccatgttgtgcaaaaaagcggttagctccttcggtcctccgatcgttgtcagaagtaagttggccgcagtgttatcactcatggttatggcagcactgcataattctcttactgtcatgccatccgtaagatgcttttctgtgactggtgagtactcaaccaagtcattctgagaatagtgtatgcggcgaccgagttgctcttgcccggcgtcaatacgggataataccgcgccacatagcagaactttaaaagtgctcatcattggaaaacgttcttcggggcgaaaactctcaaggatcttaccgctgttgagatccagttcgatgtaacccactcgtgcacccaactgatcttcagcatcttttactttcaccagcgtttctgggtgagcaaaaacaggaaggcaaaatgccgcaaaaaagggaataagggcgacacggaaatgttgaatactcatactcttcctttttcaatattattgaagcatttatcagggttattgtctcatgagcggatacatatttgaatgtatttagaaaaataaacaaataggggttccgcgcacatttccccgaaaagtgccacct",     
+      "annotation": [
+        {"feature": "BBR1", "direction": "backward"},
+        {"feature": "AmpR", "direction": "backward"},
+        {"feature": "tetR", "direction": "backward"},
+        {"feature": "Tet promoter"},
+        {"feature": "RBS-pET-29b"},        
+        {"feature": "GFP-uv"},
+        {"feature": "BBa_B0015"}
+      ]
+    },
+    {
+      "name": "pBbE2a",
+      "type": "plasmid",     
+      "annotation": [
+        {"feature": "ColE1", "direction": "backward"},
+        {"feature": "AmpR", "direction": "backward"},
+        {"feature": "tetR", "direction": "backward"},
+        {"feature": "Tet promoter"},
+        {"feature": "RBS-pET-29b"},        
+        {"feature": "mRFP1"},
+        {"feature": "BBa_B0015"}
+      ]
+    },
+    {
+      "name": "pBbS2a",
+      "type": "plasmid",     
+      "annotation": [
+        {"feature": "pSC101", "direction": "backward"},
+        {"feature": "AmpR", "direction": "backward"},
+        {"feature": "tetR", "direction": "backward"},
+        {"feature": "Tet promoter"},
+        {"feature": "RBS-pET-29b"},        
+        {"feature": "mRFP1"},
+        {"feature": "BBa_B0015"}
+      ]
+    },
+    {
+      "name": "pBbA5a",
+      "type": "plasmid",     
+      "annotation": [
+        {"feature": "p15A", "direction": "backward"},
+        {"feature": "AmpR", "direction": "backward"},
+        {"feature": "placIq"},
+        {"feature": "RBS-placI"},
+        {"feature": "lacI"},
+        {"feature": "placUV5"},
+        {"feature": "RBS-pET-29b"},        
+        {"feature": "mRFP1"},
+        {"feature": "BBa_B0015"}
+      ]
+    },
+    {
+      "name": "pBbB5a",
+      "type": "plasmid",     
+      "annotation": [
+        {"feature": "BBR1", "direction": "backward"},
+        {"feature": "AmpR", "direction": "backward"},
+        {"feature": "placIq"},
+        {"feature": "RBS-placI"},
+        {"feature": "lacI"},
+        {"feature": "placUV5"},
+        {"feature": "RBS-pET-29b"},        
+        {"feature": "GFP-uv"},
+        {"feature": "BBa_B0015"}
+      ]
+    },
+    {
+      "name": "pBbE5a",
+      "type": "plasmid",     
+      "annotation": [
+        {"feature": "ColE1", "direction": "backward"},
+        {"feature": "AmpR", "direction": "backward"},
+        {"feature": "placIq"},
+        {"feature": "RBS-placI"},
+        {"feature": "lacI"},
+        {"feature": "placUV5"},
+        {"feature": "RBS-pET-29b"},        
+        {"feature": "mRFP1"},
+        {"feature": "BBa_B0015"}
+      ]
+    },
+    {
+      "name": "pBbS5a",
+      "type": "plasmid",     
+      "annotation": [
+        {"feature": "pSC101", "direction": "backward"},
+        {"feature": "AmpR", "direction": "backward"},
+        {"feature": "placIq"},
+        {"feature": "RBS-placI"},
+        {"feature": "lacI"},
+        {"feature": "placUV5"},
+        {"feature": "RBS-pET-29b"},        
+        {"feature": "mRFP1"},
+        {"feature": "BBa_B0015"}
+      ]
+    },
+    {
+      "name": "pBbA6a",
+      "type": "plasmid",     
+      "annotation": [
+        {"feature": "p15A", "direction": "backward"},
+        {"feature": "AmpR", "direction": "backward"},
+        {"feature": "placIq"},
+        {"feature": "RBS-placI"},
+        {"feature": "lacI"},
+        {"feature": "pLlacO-1"},
+        {"feature": "RBS-pET-29b"},        
+        {"feature": "mRFP1"},
+        {"feature": "BBa_B0015"}
+      ]
+    },
+    {
+      "name": "pBbB6a",
+      "type": "plasmid",
+      "sequence": "gacgtcggtgcctaatgagtgagctaacttacattaattgcgttgcgctcactgcccgctttccagtcgggaaacctgtcgtgccagctgcattaatgaatcggccaacgcgcggggagaggcggtttgcgtattgggcgccagggtggtttttcttttcaccagtgagacgggcaacagctgattgcccttcaccgcctggccctgagagagttgcagcaagcggtccacgctggtttgccccagcaggcgaaaatcctgtttgatggtggttaacggcgggatataacatgagctgtcttcggtatcgtcgtatcccactaccgagatgtccgcaccaacgcgcagcccggactcggtaatggcgcgcattgcgcccagcgccatctgatcgttggcaaccagcatcgcagtgggaacgatgccctcattcagcatttgcatggtttgttgaaaaccggacatggcactccagtcgccttcccgttccgctatcggctgaatttgattgcgagtgagatatttatgccagccagccagacgcagacgcgccgagacagaacttaatgggcccgctaacagcgcgatttgctggtgacccaatgcgaccagatgctccacgcccagtcgcgtaccgtcttcatgggagaaaataatactgttgatgggtgtctggtcagagacatcaagaaataacgccggaacattagtgcaggcagcttccacagcaatggcatcctggtcatccagcggatagttaatgatcagcccactgacgcgttgcgcgagaagattgtgcaccgccgctttacaggcttcgacgccgcttcgttctaccatcgacaccaccacgctggcacccagttgatcggcgcgagatttaatcgccgcgacaatttgcgacggcgcgtgcagggccagactggaggtggcaacgccaatcagcaacgactgtttgcccgccagttgttgtgccacgcggttgggaatgtaattcagctccgccatcgccgcttccactttttcccgcgttttcgcagaaacgtggctggcctggttcaccacgcgggaaacggtctgataagagacaccggcatactctgcgacatcgtataacgttactggtttcacattcaccaccctgaattgactctcttccgggcgctatcatgccataccgcgaaaggttttgcgccattcgatggtgtccgggatctcgacgctctcccttatgcgactcctgcattaggaagcagcccagtagtaggttgaggccgttgagcaccgccgccgcaaggaatggtgcatgcaaggagatggcgcccaacagtcccccggccacggggcctgccaccatacccacgccgaaacaagcgctcatgagcccgaagtggcgagcccgatcttccccatcggtgatgtcggcgatataggcgccagcaaccgcacctgtggcgccggtgatgccggccacgatgcgtccggcgtagaggatcgagaattgtgagcggataacaattgacattgtgagcggataacaagatactgagcacatcagcaggacgcactgaccgaattcaaaagatcttttaagaaggagatatacatatgagtaaaggagaagaacttttcactggagttgtcccaattcttgttgaattagatggtgatgttaatgggcacaaattttctgtcagtggagagggtgaaggtgatgcaacatacggaaaacttacccttaaatttatttgcactactggaaaactacctgttccgtggccaacacttgtcactactttctcttatggtgttcaatgcttttcccgttatccggatcacatgaaacggcatgactttttcaagagtgccatgcccgaaggttatgtacaggaacgcactatatctttcaaagatgacgggaactacaagacgcgtgctgaagtcaagtttgaaggtgatacccttgttaatcgtatcgagttaaaaggtattgattttaaagaagatggaaacattctcggacacaaactggagtacaactataactcacacaatgtatacatcacggcagacaaacaaaagaatggaatcaaagctaacttcaaaattcgccacaacattgaagatggctccgttcaactagcagaccattatcaacaaaatactccaattggcgatggccctgtccttttaccagacaaccattacctgtccacacaatctgccctttcgaaagatcccaacgaaaagcgtgaccacatggtccttcttgagtttgtaactgctgctgggattacacatggcatggatgagctctacaaataaggatccaaactcgagtaaggatctccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctactagagtcacactggctcaccttcgggtgggcctttctgcgtttatacctaggctacagccgatagtctggaacagcgcacttacgggttgctgcgcaacccaagtgctaccggcgcggcagcgtgacccgtgtcggcggctccaacggctcgccatcgtccagaaaacacggctcatcgggcatcggcaggcgctgctgcccgcgccgttcccattcctccgtttcggtcaaggctggcaggtctggttccatgcccggaatgccgggctggctgggcggctcctcgccggggccggtcggtagttgctgctcgcccggatacagggtcgggatgcggcgcaggtcgccatgccccaacagcgattcgtcctggtcgtcgtgatcaaccaccacggcggcactgaacaccgacaggcgcaactggtcgcggggctggccccacgccacgcggtcattgaccacgtaggccaacacggtgccggggccgttgagcttcacgacggagatccagcgctcggccaccaagtccttgactgcgtattggaccgtccgcaaagaacgtccgatgagcttggaaagtgtcttctggctgaccaccacggcgttctggtggcccatctgcgccacgaggtgatgcagcagcattgccgccgtgggtttcctcgcaataagcccggcccacgcctcatgcgctttgcgttccgtttgcacccagtgaccgggcttgttcttggcttgaatgccgatttctctggactgcgtggccatgcttatctccatgcggtaggggtgccgcacggttgcggcaccatgcgcaatcagctgcaacttttcggcagcgcgacaacaattatgcgttgcgtaaaagtggcagtcaattacagattttctttaacctacgcaatgagctattgcggggggtgccgcaatgagctgttgcgtaccccccttttttaagttgttgatttttaagtctttcgcatttcgccctatatctagttctttggtgcccaaagaagggcacccctgcggggttcccccacgccttcggcgcggctccccctccggcaaaaagtggcccctccggggcttgttgatcgactgcgcggccttcggccttgcccaaggtggcgctgcccccttggaacccccgcactcgccgccgtgaggctcggggggcaggcgggcgggcttcgcccttcgactgcccccactcgcataggcttgggtcgttccaggcgcgtcaaggccaagccgctgcgcggtcgctgcgcgagccttgacccgccttccacttggtgtccaaccggcaagcgaagcgcgcaggccgcaggccggaggcactagtgcttggattctcaccaataaaaaacgcccggcggcaaccgagcgttctgaacaaatccagatggagttctgaggtcattactggatctatcaacaggagtccaagcgagctcgtaaacttggtctgacagttaccaatgcttaatcagtgaggcacctatctcagcgatctgtctatttcgttcatccatagttgcctgactccccgtcgtgtagataactacgatacgggagggcttaccatctggccccagtgctgcaatgataccgcgagacccacgctcaccggctccagatttatcagcaataaaccagccagccggaagggccgagcgcagaagtggtcctgcaactttatccgcctccatccagtctattaattgttgccgggaagctagagtaagtagttcgccagttaatagtttgcgcaacgttgttgccattgctacaggcatcgtggtgtcacgctcgtcgtttggtatggcttcattcagctccggttcccaacgatcaaggcgagttacatgatcccccatgttgtgcaaaaaagcggttagctccttcggtcctccgatcgttgtcagaagtaagttggccgcagtgttatcactcatggttatggcagcactgcataattctcttactgtcatgccatccgtaagatgcttttctgtgactggtgagtactcaaccaagtcattctgagaatagtgtatgcggcgaccgagttgctcttgcccggcgtcaatacgggataataccgcgccacatagcagaactttaaaagtgctcatcattggaaaacgttcttcggggcgaaaactctcaaggatcttaccgctgttgagatccagttcgatgtaacccactcgtgcacccaactgatcttcagcatcttttactttcaccagcgtttctgggtgagcaaaaacaggaaggcaaaatgccgcaaaaaagggaataagggcgacacggaaatgttgaatactcatactcttcctttttcaatattattgaagcatttatcagggttattgtctcatgagcggatacatatttgaatgtatttagaaaaataaacaaataggggttccgcgcacatttccccgaaaagtgccacct",     
+      "annotation": [
+        {"feature": "BBR1", "direction": "backward"},
+        {"feature": "AmpR", "direction": "backward"},
+        {"feature": "placIq"},
+        {"feature": "RBS-placI"},
+        {"feature": "lacI"},
+        {"feature": "pLlacO-1"},
+        {"feature": "RBS-pET-29b"},        
+        {"feature": "GFP-uv"},
+        {"feature": "BBa_B0015"}
+      ]
+    },
+    {
+      "name": "pBbE6a",
+      "type": "plasmid",     
+      "annotation": [
+        {"feature": "ColE1", "direction": "backward"},
+        {"feature": "AmpR", "direction": "backward"},
+        {"feature": "placIq"},
+        {"feature": "RBS-placI"},
+        {"feature": "lacI"},
+        {"feature": "pLlacO-1"},
+        {"feature": "RBS-pET-29b"},        
+        {"feature": "mRFP1"},
+        {"feature": "BBa_B0015"}
+      ]
+    },
+    {
+      "name": "pBbS6a",
+      "type": "plasmid",     
+      "annotation": [
+        {"feature": "pSC101", "direction": "backward"},
+        {"feature": "AmpR", "direction": "backward"},
+        {"feature": "placIq"},
+        {"feature": "RBS-placI"},
+        {"feature": "lacI"},
+        {"feature": "pLlacO-1"},
+        {"feature": "RBS-pET-29b"},        
+        {"feature": "mRFP1"},
+        {"feature": "BBa_B0015"}
+      ]
+    },
+    {
+      "name": "pBbA7a",
+      "type": "plasmid",     
+      "annotation": [
+        {"feature": "p15A", "direction": "backward"},
+        {"feature": "AmpR", "direction": "backward"},
+        {"feature": "placIq"},
+        {"feature": "RBS-placI"},
+        {"feature": "lacI"},
+        {"feature": "pT7lacO"},
+        {"feature": "RBS-pET-29b"},        
+        {"feature": "mRFP1"},
+        {"feature": "BBa_B0015"}
+      ]
+    },
+    {
+      "name": "pBbB7a",
+      "type": "plasmid",     
+      "annotation": [
+        {"feature": "BBR1", "direction": "backward"},
+        {"feature": "AmpR", "direction": "backward"},
+        {"feature": "placIq"},
+        {"feature": "RBS-placI"},
+        {"feature": "lacI"},
+        {"feature": "pT7lacO"},
+        {"feature": "RBS-pET-29b"},        
+        {"feature": "GFP-uv"},
+        {"feature": "BBa_B0015"}
+      ]
+    },
+    {
+      "name": "pBbE7a",
+      "type": "plasmid",
+      "sequence": "gacgtcctcactgcccgctttccagtcgggaaacctgtcgtgccagctgcattaatgaatcggccaacgcgcggggagaggcggtttgcgtattgggcgccagggtggtttttcttttcaccagtgagacgggcaacagctgattgcccttcaccgcctggccctgagagagttgcagcaagcggtccacgctggtttgccccagcaggcgaaaatcctgtttgatggtggttaacggcgggatataacatgagctgtcttcggtatcgtcgtatcccactaccgagatgtccgcaccaacgcgcagcccggactcggtaatggcgcgcattgcgcccagcgccatctgatcgttggcaaccagcatcgcagtgggaacgatgccctcattcagcatttgcatggtttgttgaaaaccggacatggcactccagtcgccttcccgttccgctatcggctgaatttgattgcgagtgagatatttatgccagccagccagacgcagacgcgccgagacagaacttaatgggcccgctaacagcgcgatttgctggtgacccaatgcgaccagatgctccacgcccagtcgcgtaccgtcttcatgggagaaaataatactgttgatgggtgtctggtcagagacatcaagaaataacgccggaacattagtgcaggcagcttccacagcaatggcatcctggtcatccagcggatagttaatgatcagcccactgacgcgttgcgcgagaagattgtgcaccgccgctttacaggcttcgacgccgcttcgttctaccatcgacaccaccacgctggcacccagttgatcggcgcgagatttaatcgccgcgacaatttgcgacggcgcgtgcagggccagactggaggtggcaacgccaatcagcaacgactgtttgcccgccagttgttgtgccacgcggttgggaatgtaattcagctccgccatcgccgcttccactttttcccgcgttttcgcagaaacgtggctggcctggttcaccacgcgggaaacggtctgataagagacaccggcatactctgcgacatcgtataacgttactggtttcacattcaccaccctgaattgactctcttccgggcgctatcatgccataccgcgaaaggttttgcgccattcgatggtgtccgggatctcgacgctctcccttatgcgactcctgcattaggaagcagcccagtagtaggttgaggccgttgagcaccgccgccgcaaggaatggtgcatgcaaggagatggcgcccaacagtcccccggccacggggcctgccaccatacccacgccgaaacaagcgctcatgagcccgaagtggcgagcccgatcttccccatcggtgatgtcggcgatataggcgccagcaaccgcacctgtggcgccggtgatgccggccacgatgcgtccggcgtagaggatcgagatcgatctcgatcccgcgaaattaatacgactcactataggggaattgtgagcggataacaatttcagaattcaaaagatcttttaagaaggagatatacatatggcgagtagcgaagacgttatcaaagagttcatgcgtttcaaagttcgtatggaaggttccgttaacggtcacgagttcgaaatcgaaggtgaaggtgaaggtcgtccgtacgaaggtacccagaccgctaaactgaaagttaccaaaggtggtccgctgccgttcgcttgggacatcctgtccccgcagttccagtacggttccaaagcttacgttaaacacccggctgacatcccggactacctgaaactgtccttcccggaaggtttcaaatgggaacgtgttatgaacttcgaagacggtggtgttgttaccgttacccaggactcctccctgcaagacggtgagttcatctacaaagttaaactgcgtggtaccaacttcccgtccgacggtccggttatgcagaaaaaaaccatgggttgggaagcttccaccgaacgtatgtacccggaagacggtgctctgaaaggtgaaatcaaaatgcgtctgaaactgaaagacggtggtcactacgacgctgaagttaaaaccacctacatggctaaaaaaccggttcagctgccgggtgcttacaaaaccgacatcaaactggacatcacctcccacaacgaagactacaccatcgttgaacagtacgaacgtgctgaaggtcgtcactccaccggtgcttaaggatccaaactcgagtaaggatctccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctactagagtcacactggctcaccttcgggtgggcctttctgcgtttatacctagggcgttcggctgcggcgagcggtatcagctcactcaaaggcggtaatacggttatccacagaatcaggggataacgcaggaaagaacatgtgagcaaaaggccagcaaaaggccaggaaccgtaaaaaggccgcgttgctggcgtttttccataggctccgcccccctgacgagcatcacaaaaatcgacgctcaagtcagaggtggcgaaacccgacaggactataaagataccaggcgtttccccctggaagctccctcgtgcgctctcctgttccgaccctgccgcttaccggatacctgtccgcctttctcccttcgggaagcgtggcgctttctcatagctcacgctgtaggtatctcagttcggtgtaggtcgttcgctccaagctgggctgtgtgcacgaaccccccgttcagcccgaccgctgcgccttatccggtaactatcgtcttgagtccaacccggtaagacacgacttatcgccactggcagcagccactggtaacaggattagcagagcgaggtatgtaggcggtgctacagagttcttgaagtggtggcctaactacggctacactagaaggacagtatttggtatctgcgctctgctgaagccagttaccttcggaaaaagagttggtagctcttgatccggcaaacaaaccaccgctggtagcggtggtttttttgtttgcaagcagcagattacgcgcagaaaaaaaggatctcaagaagatcctttgatcttttctacggggtctgacgctcagtggaacgaaaactcacgttaagggattttggtcatgactagtgcttggattctcaccaataaaaaacgcccggcggcaaccgagcgttctgaacaaatccagatggagttctgaggtcattactggatctatcaacaggagtccaagcgagctcgtaaacttggtctgacagttaccaatgcttaatcagtgaggcacctatctcagcgatctgtctatttcgttcatccatagttgcctgactccccgtcgtgtagataactacgatacgggagggcttaccatctggccccagtgctgcaatgataccgcgagacccacgctcaccggctccagatttatcagcaataaaccagccagccggaagggccgagcgcagaagtggtcctgcaactttatccgcctccatccagtctattaattgttgccgggaagctagagtaagtagttcgccagttaatagtttgcgcaacgttgttgccattgctacaggcatcgtggtgtcacgctcgtcgtttggtatggcttcattcagctccggttcccaacgatcaaggcgagttacatgatcccccatgttgtgcaaaaaagcggttagctccttcggtcctccgatcgttgtcagaagtaagttggccgcagtgttatcactcatggttatggcagcactgcataattctcttactgtcatgccatccgtaagatgcttttctgtgactggtgagtactcaaccaagtcattctgagaatagtgtatgcggcgaccgagttgctcttgcccggcgtcaatacgggataataccgcgccacatagcagaactttaaaagtgctcatcattggaaaacgttcttcggggcgaaaactctcaaggatcttaccgctgttgagatccagttcgatgtaacccactcgtgcacccaactgatcttcagcatcttttactttcaccagcgtttctgggtgagcaaaaacaggaaggcaaaatgccgcaaaaaagggaataagggcgacacggaaatgttgaatactcatactcttcctttttcaatattattgaagcatttatcagggttattgtctcatgagcggatacatatttgaatgtatttagaaaaataaacaaataggggttccgcgcacatttccccgaaaagtgccacct",
+      "annotation": [
+        {"feature": "ColE1", "direction": "backward"},
+        {"feature": "AmpR", "direction": "backward"},
+        {"feature": "placIq"},
+        {"feature": "RBS-placI"},
+        {"feature": "lacI"},
+        {"feature": "pT7lacO"},
+        {"feature": "RBS-pET-29b"},        
+        {"feature": "mRFP1"},
+        {"feature": "BBa_B0015"}
+      ]
+    },
+    {
+      "name": "pBbS7a",
+      "type": "plasmid",     
+      "annotation": [
+        {"feature": "pSC101", "direction": "backward"},
+        {"feature": "AmpR", "direction": "backward"},
+        {"feature": "placIq"},
+        {"feature": "RBS-placI"},
+        {"feature": "lacI"},
+        {"feature": "pT7lacO"},
+        {"feature": "RBS-pET-29b"},        
+        {"feature": "mRFP1"},
+        {"feature": "BBa_B0015"}
+      ]
+    },
+    {
+      "name": "pBbA8a",
+      "type": "plasmid",     
+      "annotation": [
+        {"feature": "p15A", "direction": "backward"},
+        {"feature": "AmpR", "direction": "backward"},
+        {"feature": "araC", "direction": "backward"},
+        {"feature": "pBAD operon"},
+        {"feature": "RBS-pET-29b"},        
+        {"feature": "mRFP1"},
+        {"feature": "BBa_B0015"}
+      ]
+    },
+    {
+      "name": "pBbB8a",
+      "type": "plasmid",     
+      "annotation": [
+        {"feature": "BBR1", "direction": "backward"},
+        {"feature": "AmpR", "direction": "backward"},
+        {"feature": "araC", "direction": "backward"},
+        {"feature": "pBAD operon"},
+        {"feature": "RBS-pET-29b"},        
+        {"feature": "GFP-uv"},
+        {"feature": "BBa_B0015"}
+      ]
+    },
+    {
+      "name": "pBbE8a",
+      "type": "plasmid",     
+      "annotation": [
+        {"feature": "ColE1", "direction": "backward"},
+        {"feature": "AmpR", "direction": "backward"},
+        {"feature": "araC", "direction": "backward"},
+        {"feature": "pBAD operon"},
+        {"feature": "RBS-pET-29b"},        
+        {"feature": "mRFP1"},
+        {"feature": "BBa_B0015"}
+      ]
+    },
+    {
+      "name": "pBbS8a",
+      "type": "plasmid",     
+      "annotation": [
+        {"feature": "pSC101", "direction": "backward"},
+        {"feature": "AmpR", "direction": "backward"},
+        {"feature": "araC", "direction": "backward"},
+        {"feature": "pBAD operon"},
+        {"feature": "RBS-pET-29b"},        
+        {"feature": "mRFP1"},
+        {"feature": "BBa_B0015"}
+      ]
+    }
+  ],
+  "Strain":[
+    {
+      "name": "BLR(DE3)",
+      "parent": "K-12",
+      "modification": ["delta lacX74"]
+    }    	
+  ]
+}
