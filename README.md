@@ -2,17 +2,11 @@
 A Parts Database with Consensus Parameter Estimation for Synthetic Circuit Design
 
 ### What is PAMDB?
-
-DeepPep, is a **protein identification** software which uses deep-convolutional neural network to predict the protein set from a proteomics mixture, given the sequence universe of possible proteins and a target peptide profile.
+PAMDB aims to bridge the gap between published circuits and lack of universal quantitive parameters for their parts. PAMDB includes parameter values inferred from hundreds of papers under a single unified model. PAMDB can be used to rank parts based on their activity, acquire parameter values and quantify their uncertainty, simulate circuits and visualize the part universe for the published synthetic biology work so far
 
 ### Dependencies
-* [torch7](http://torch.ch/docs/getting-started.html)
-* luarocks install cephes
-* luarocks install csv
-* [SparseNN](https://github.com/ameenetemady/SparseNN/)
-* python3.4 or above
-* [biopython](http://biopython.org/wiki/Download)
-
+* Gcc
+* Matlab
 
 
 ### Installation
