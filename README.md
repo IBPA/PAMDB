@@ -24,7 +24,10 @@ git clone https://github.com/IBPA/PAMDB.git
 ```
 MATLAB/ACS_2016/real_benchmark_fitting.m
 ```
-This will print a file with all parameter values
+This will print all parameters, their value, and confidence interval into file 
+```
+ACS_2016/simultaneous_parameter_CI.dat
+```
 
 ### Support
 
