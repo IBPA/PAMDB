@@ -12,18 +12,19 @@ PAMDB aims to bridge the gap between published circuits and lack of universal qu
 ### Installation
 ```
 git clone https://github.com/IBPA/PAMDB.git
-make
-make install
+./compile.sh
 ```
 
 ### Running
 * Step1: Generate the optimization problem for MATLAB 
 ```
-./SBROME
+./src/sbrome
 ```
-* Step2: Use MATLAB to estimate parameter values
-
-### Benchmark Datasets
+* Step2: Use MATLAB to estimate parameter values by running file 
+```
+MATLAB/ACS_2016/real_benchmark_fitting.m
+```
+This will print a file with all parameter values
 
 ### Support
 
