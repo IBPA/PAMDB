@@ -5,8 +5,8 @@ A Parts Database with Consensus Parameter Estimation for Synthetic Circuit Desig
 PAMDB aims to bridge the gap between published circuits and lack of universal quantitive parameters for their parts. PAMDB includes parameter values inferred from hundreds of papers under a single unified model. PAMDB can be used to rank parts based on their activity, acquire parameter values and quantify their uncertainty, simulate circuits and visualize the part universe for the published synthetic biology work so far
 
 ### Dependencies
-* Gcc
-* Matlab
+* gcc/g++ 11
+* matlab 2009
 
 
 ### Installation
