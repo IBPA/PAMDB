@@ -11,26 +11,20 @@ PAMDB aims to bridge the gap between published circuits and lack of universal qu
 
 ### Installation
 ```
-git clone https://github.com/ameenetemady/MyCommon.git
-git clone https://github.com/DeepPep/DeepPep.git
+git clone https://github.com/IBPA/PAMDB.git
+make
+make install
 ```
 
 ### Running
-* Step1: prepare a directory containing your input files (with exact names):
-
-  * ```identification.tsv```: tab-delimeted file:  **column1**: peptide, **column2**: protein name, **column3**: identification probability
-  * ```db.fasta```: reference protein database in fasta format.
-
-* Step2: ```python run.py directoryName```
-
-Upon completion, ```pred.csv``` will contain the predicted protein identification probabilities.
+* Step1: Generate the optimization problem for MATLAB 
+```
+./SBROME
+```
+* Step2: Use MATLAB to estimate parameter values
 
 ### Benchmark Datasets
-There are [7 example datasets](https://github.com/DeepPep/public/tree/master/data) (used for benchmarking in the paper). Each dataset is generated from MS/MS raw files using TPP pipeline. For example, to run the [18Mix benchmark dataset](https://github.com/DeepPep/public/tree/master/data/18mix), simply run the following:
 
-```
-python run.py data/18Mix
-```
 ### Support
 
 If you have any questions about PAMDB, please contact Linh Huynh (huynh@ucdavis.edu) or Ilias Tagkopoulos (itagkopoulos@ucdavis.edu).
